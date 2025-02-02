@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a master student in Robotics, Cognition, Intelligence at Technical University of Munich. Currently I'm completing my master thesis about safety alignment of LLMs under the supervision of [Prof. Barbara Plank](https://bplank.github.io/). 
+I am a master student in Robotics, Cognition, Intelligence at Technical University of Munich. Currently, I'm completing my master thesis about safety alignment of LLMs under the supervision of [Prof. Barbara Plank](https://bplank.github.io/). Previously, I worked as a research assistant in the NLP group at Yale University under the supervision of [Dr. Arman Cohan](https://armancohan.com/), working with [Yilun Zhao](https://yilunzhao.github.io/)
 
 I obtained my B.S. degree from Zhejiang University. During this period, I did my thesis about leveraging SVM algorithm to detect two-phase flow. 
 
