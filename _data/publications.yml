@@ -1,5 +1,19 @@
 main:
 
+  - tilte: "THINK BEFORE REFUSE: Triggering Safety Reflection in LLMs to Mitigate False Refusal Behaviour"
+    authors: <strong>Shengyun Si</strong>*, Xinpeng Wang*, Guangyao Zhai, Nassir Navab, Barbara Plank
+    conference_short: Arxiv
+    conference: <strong>Arxiv</strong>
+    notes: Tuning
+    
+  - title: "OpenT2T: An Open-Source Toolkit for Table-to-Text Generation"
+    authors: Haowei Zhang*, <strong>Shengyun Si*</strong>, Yilun Zhao, Lujing Xie, Zhijian Xu, Lyuhao Chen, Linyong Nan, Pengcheng Wang, Xiangru Tang, Arman Cohan
+    conference_short: EMNLP 2024
+    conference: <strong>EMNLP</strong>, 2024
+    pdf: https://aclanthology.org/2024.emnlp-demo.27.pdf
+    notes: Oral Presentation
+    # image: ./assets/img/framework-2.pdf
+    
   - title: Investigating table-to-text generation capabilities of large language models in real-world information seeking scenarios
     authors: Yilun Zhao*, Haowei Zhang*, <strong>Shengyun Si*</strong>, Linyong Nan, Xiangru Tang, Arman Cohan
     conference_short: EMNLP 2023
@@ -8,10 +22,7 @@ main:
     # image: ./assets/img/overview_inves.pdf
     notes: Early Accept
 
-  - title: "OpenT2T: An Open-Source Toolkit for Table-to-Text Generation"
-    authors: Haowei Zhang*, <strong>Shengyun Si*</strong>, Yilun Zhao, Lujing Xie, Zhijian Xu, Lyuhao Chen, Linyong Nan, Pengcheng Wang, Xiangru Tang, Arman Cohan
-    conference_short: EMNLP 2024
-    conference: <strong>EMNLP</strong>, 2024
-    pdf: https://aclanthology.org/2024.emnlp-demo.27.pdf
-    notes: Oral Presentation
-    # image: ./assets/img/framework-2.pdf
+
+
+  
+    
