@@ -4,20 +4,19 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am a master student in Robotics, Cognition, Intelligence at Technical University of Munich. Currently I'm completing my master thesis about safety alignment of LLMs under the supervision of [Prof. Barbara Plank](https://bplank.github.io/). 
+
+I obtained my B.S. degree from Zhejiang University. During this period, I did my thesis about leveraging SVM algorithm to detect two-phase flow. 
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Natural Language Processing:** Safety Alignment of LLMs, Table to Text Generation, Retrival Augmented Generation
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Nov. 2024]** Our paper about open-source Table2Text tool is accepted to EMNLP 2024.
+- **[Dec. 2023]** Our paper about investigating LLMs in Table2Text task is accepted to EMNLP 2023
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
+
