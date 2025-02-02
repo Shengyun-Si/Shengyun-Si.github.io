@@ -8,7 +8,7 @@ main:
     # image: ./assets/img/overview_inves.pdf
     notes: Early Accept
 
-  - title: OpenT2T: An Open-Source Toolkit for Table-to-Text Generation
+  - title: "OpenT2T: An Open-Source Toolkit for Table-to-Text Generation"
     authors: Haowei Zhang*, <strong>Shengyun Si*</strong>, Yilun Zhao, Lujing Xie, Zhijian Xu, Lyuhao Chen, Linyong Nan, Pengcheng Wang, Xiangru Tang, Arman Cohan
     conference_short: EMNLP 2024
     conference: <strong>EMNLP</strong>, 2024
