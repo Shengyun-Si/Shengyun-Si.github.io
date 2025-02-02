@@ -1,6 +1,6 @@
 main:
 
-  - tilte: "THINK BEFORE REFUSE: Triggering Safety Reflection in LLMs to Mitigate False Refusal Behaviour"
+  - title: "THINK BEFORE REFUSE: Triggering Safety Reflection in LLMs to Mitigate False Refusal Behaviour"
     authors: <strong>Shengyun Si</strong>*, Xinpeng Wang*, Guangyao Zhai, Nassir Navab, Barbara Plank
     conference_short: Arxiv
     conference: <strong>Arxiv</strong>
