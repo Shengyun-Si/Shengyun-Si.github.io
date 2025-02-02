@@ -8,13 +8,10 @@ main:
     image: ./assets/img/teaser_example_2.png
     notes: Early Accept
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+  - title: OpenT2T: An Open-Source Toolkit for Table-to-Text Generation
+    authors: Haowei Zhang*, <strong>Shengyun Si*</strong>, Yilun Zhao, Lujing Xie, Zhijian Xu, Lyuhao Chen, Linyong Nan, Pengcheng Wang, Xiangru Tang, Arman Cohan
+    conference_short: EMNLP 2024
+    conference: <strong>EMNLP</strong>, 2024
+    pdf: https://aclanthology.org/2024.emnlp-demo.27.pdf
     notes: Oral Presentation
     image: ./assets/img/teaser_example.png
