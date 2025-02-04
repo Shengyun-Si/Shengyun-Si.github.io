@@ -11,7 +11,7 @@ main:
     conference_short: EMNLP 2024
     conference: <strong>EMNLP</strong>, 2024
     pdf: https://aclanthology.org/2024.emnlp-demo.27.pdf
-    notes: Oral Presentation
+    notes: Demo Track
     # image: ./assets/img/framework-2.pdf
     
   - title: Investigating table-to-text generation capabilities of large language models in real-world information seeking scenarios
@@ -20,7 +20,7 @@ main:
     conference: <strong>EMNLP</strong>, 2023
     pdf: https://aclanthology.org/2023.emnlp-industry.17.pdf
     # image: ./assets/img/overview_inves.pdf
-    notes: Early Accept
+    notes: Industry Track
 
 
 
