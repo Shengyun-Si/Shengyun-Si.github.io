@@ -4,7 +4,8 @@ main:
     authors: <strong>Shengyun Si</strong>*, Xinpeng Wang*, Guangyao Zhai, Nassir Navab, Barbara Plank
     conference_short: Arxiv
     conference: <strong>Arxiv</strong>
-    notes: Tuning
+    pdf: https://arxiv.org/abs/2503.17882
+    notes: under review
     
   - title: "OpenT2T: An Open-Source Toolkit for Table-to-Text Generation"
     authors: Haowei Zhang*, <strong>Shengyun Si*</strong>, Yilun Zhao, Lujing Xie, Zhijian Xu, Lyuhao Chen, Linyong Nan, Pengcheng Wang, Xiangru Tang, Arman Cohan
