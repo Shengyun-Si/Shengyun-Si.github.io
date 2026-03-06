@@ -36,26 +36,33 @@
 
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        
-        {% if site.avatar %}
-        <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
-        {% endif %}
 
-        <h1>{{ site.title }}</h1>
+  <div class="topnav">
+    <a href="{{ site.affiliation_link }}" rel="noopener">
+      <img width="120" src="{{ site.affiliation_logo }}" alt="affiliation logo">
+    </a>
+  </div>
 
-        {% if site.position %}
-        <position style="font-size:1.10rem;">{{ site.position }}</position>
-        <br>
-        {% endif %}
-        {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
-        <br>
-        {% endif %}
-        {% if site.email %}
-        <email>{{ site.email }}</email>
-        {% endif %}
+  <div class="wrapper">
+    <header>
+      
+      {% if site.avatar %}
+      <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+      {% endif %}
+
+      <h1>{{ site.title }}</h1>
+
+      {% if site.position %}
+      <position style="font-size:1.10rem;">{{ site.position }}</position>
+      <br>
+      {% endif %}
+      {% if site.affiliation %}
+      <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+      <br>
+      {% endif %}
+      {% if site.email %}
+      <email>{{ site.email }}</email>
+      {% endif %}
 
         <br>
         <br>
