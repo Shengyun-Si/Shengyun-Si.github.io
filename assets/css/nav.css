@@ -1,11 +1,15 @@
 .topnav {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 20px 0 10px 0;
+  width: 300px;
+  background: white;
+  border-bottom: 1px solid #e5e5e5;
   text-align: center;
+  padding: 18px 0 14px 0;
+  margin-bottom: 24px;
+  box-sizing: border-box;
 }
 
 .topnav img {
-  height: 45px;
+  height: 52px;
   width: auto;
+  display: inline-block;
 }
