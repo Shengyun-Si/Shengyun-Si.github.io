@@ -1,9 +1,14 @@
 .topnav {
-  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
   background: white;
   border-bottom: 1px solid #e5e5e5;
   box-sizing: border-box;
   padding: 16px 40px;
+  z-index: 1000;
 }
 
 .topnav a {
@@ -14,4 +19,8 @@
   height: 48px;
   width: auto;
   display: block;
+}
+
+.wrapper {
+  margin-top: 90px;
 }
