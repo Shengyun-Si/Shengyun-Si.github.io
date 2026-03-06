@@ -39,18 +39,20 @@
   </head>
   <body>
 
-  <div class="topnav">
-    <a href="{{ site.affiliation_link }}" rel="noopener">
-      <img width="120" src="{{ site.affiliation_logo }}" alt="affiliation logo">
-    </a>
-  </div>
-
   <div class="wrapper">
-    <header>
+  <header>
+
+    <div class="topnav">
+      <a href="{{ site.affiliation_link }}" rel="noopener">
+        <img src="{{ site.affiliation_logo }}" alt="affiliation logo">
+      </a>
+    </div>
+    
+    {% if site.avatar %}
+    <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+    {% endif %}
       
-      {% if site.avatar %}
-      <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
-      {% endif %}
+    
 
       <h1>{{ site.title }}</h1>
 
