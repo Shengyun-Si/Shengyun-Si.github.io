@@ -50,7 +50,10 @@
 .wrapper {
   margin-top: 95px;
 } */
-.topnav {
+
+
+
+/* .topnav {
   position: fixed;
   top: 0;
   left: 0;
@@ -197,6 +200,219 @@
     opacity: 1;
     transform: rotate(0deg);
   }
+  .wrapper {
+    margin-top: 110px;
+  }
+} */
+
+.topnav {
+  background: white;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.topnav #myLinks {
+  display: inline;
+}
+
+.topnav a.icon {
+  display: none;
+}
+
+.topnav img {
+  height: 42px;
+  width: auto;
+  margin-bottom: 0;
+  margin-top: 14px;
+  margin-left: 30%;
+  display: block;
+}
+
+/* 桌面端导航项 */
+.topnav a.normal {
+  float: right;
+  color: #333;
+  text-align: center;
+  padding: 24px 10px 18px 10px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.topnav a.normal:hover {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+/* 最右侧那一项额外留白，把整组导航往中间推 */
+.topnav a.right {
+  margin-right: 30%;
+}
+
+.wrapper {
+  margin-top: 95px;
+}
+
+/* 大屏到中屏：逐步缩小左右边距 */
+@media print, screen and (max-width: 1000px) {
+  .topnav img {
+    margin-left: 3%;
+  }
+
+  .topnav a.right {
+    margin-right: 3%;
+  }
+
+  .topnav a.normal {
+    padding: 24px 6px 18px 6px;
+  }
+}
+
+@media print, screen and (max-width: 1200px) and (min-width: 1001px) {
+  .topnav img {
+    margin-left: 6%;
+  }
+
+  .topnav a.right {
+    margin-right: 6%;
+  }
+}
+
+@media print, screen and (max-width: 1400px) and (min-width: 1201px) {
+  .topnav img {
+    margin-left: 12%;
+  }
+
+  .topnav a.right {
+    margin-right: 12%;
+  }
+}
+
+@media print, screen and (max-width: 1600px) and (min-width: 1401px) {
+  .topnav img {
+    margin-left: 16%;
+  }
+
+  .topnav a.right {
+    margin-right: 16%;
+  }
+}
+
+@media print, screen and (max-width: 1800px) and (min-width: 1601px) {
+  .topnav img {
+    margin-left: 19%;
+  }
+
+  .topnav a.right {
+    margin-right: 19%;
+  }
+}
+
+@media print, screen and (max-width: 2000px) and (min-width: 1801px) {
+  .topnav img {
+    margin-left: 22%;
+  }
+
+  .topnav a.right {
+    margin-right: 22%;
+  }
+}
+
+/* 手机窄屏版 */
+@media print, screen and (max-width: 960px) {
+  .topnav img {
+    margin-left: 20px;
+    margin-top: 16px;
+    height: 36px;
+  }
+
+  .topnav #myLinks {
+    display: flex;
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease-in-out;
+    clear: both;
+    width: 100%;
+    background: white;
+  }
+
+  .topnav #myLinks.open {
+    max-height: 500px;
+  }
+
+  .topnav a.normal {
+    color: #333;
+    float: none;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    background: white;
+  }
+
+  .topnav a.normal:hover {
+    background-color: #f2f2f2;
+    color: black;
+  }
+
+  .topnav a.icon {
+    color: #333;
+    display: block;
+    padding: 10px 16px;
+    font-size: 18px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 10px;
+    margin-top: 14px;
+    line-height: 1;
+  }
+
+  .topnav a.icon .icon-wrap {
+    position: relative;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+  }
+
+  .topnav a.icon .icon-bars,
+  .topnav a.icon .icon-xmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.25s ease, transform 0.25s ease;
+  }
+
+  .topnav a.icon .icon-bars {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+
+  .topnav a.icon .icon-xmark {
+    opacity: 0;
+    transform: rotate(-90deg);
+  }
+
+  .topnav a.icon.active .icon-bars {
+    opacity: 0;
+    transform: rotate(90deg);
+  }
+
+  .topnav a.icon.active .icon-xmark {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+
+  .topnav a.right {
+    margin-right: 0;
+  }
+
   .wrapper {
     margin-top: 110px;
   }
