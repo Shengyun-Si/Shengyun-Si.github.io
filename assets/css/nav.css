@@ -1,4 +1,4 @@
-/* .topnav {
+.topnav {
   position: fixed;
   top: 0;
   left: 0;
@@ -202,8 +202,8 @@
   .wrapper {
     margin-top: 110px;
   }
-} */
-.topnav {
+}
+/* .topnav {
   background: white;
   border-bottom: 1px solid #e5e5e5;
   position: fixed;
@@ -436,4 +436,4 @@
   header {
     padding-top: 8px;
   }
-}
+} */
