@@ -3,7 +3,7 @@ title: Shengyun Si
 position: PhD Student
 affiliation: CISPA Helmholtz Center for Information Security
 affiliation_link: https://cispa.de/en
-affiliation_logo: ./assets/img/cispa_logo.svg
+affiliation_logo: assets/img/cispa_logo.svg
 email: shengyun.si (at) cispa.de
 
 # Search Engine Optimization (SEO)
@@ -22,9 +22,9 @@ twitter: https://twitter.com/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: /assets/img/profile.jpeg
-favicon: /assets/img/hf.png
-favicon_dark: /assets/img/favicon-dark.png
+avatar: assets/img/profile.jpeg
+favicon: assets/img/hf.png
+favicon_dark: assets/img/favicon-dark.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
