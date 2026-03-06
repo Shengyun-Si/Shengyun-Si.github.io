@@ -9,7 +9,7 @@ I obtained my B.S. degree from Zhejiang University. During this period, I did my
 
 ## Research Interests
 
-- **Alignment of Large Language Models:**
+- **Alignment of Large Language Models**
 - **Multimodal Language Model and Video/Image Generation**
 - **M/LLM-Based Multiagent System**
 
