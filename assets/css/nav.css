@@ -1,31 +1,19 @@
-/* ===== Top navigation bar ===== */
-
 .topnav {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 70px;
-  background: white;
-  border-bottom: 1px solid #e5e5e5;
+  background: red;   /* 先用红色测试 */
   z-index: 999;
-  display: flex;
-  align-items: center;
 }
 
-/* 控制logo在内容区域左侧 */
-.topnav a {
-  display: block;
-  margin-left: calc((100vw - 960px) / 2);
-}
-
-/* logo大小 */
 .topnav img {
-  height: 42px;
-  width: auto;
+  height: 40px;
+  margin-left: 40px;
+  margin-top: 15px;
 }
 
-/* 给页面内容腾出空间 */
 .wrapper {
-  margin-top: 90px;
+  margin-top: 80px;
 }
