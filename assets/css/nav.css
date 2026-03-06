@@ -1,3 +1,55 @@
+/* .topnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: white;
+  border-bottom: 1px solid #e5e5e5;
+  z-index: 999;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: calc((100vw - 960px) / 2);
+  padding-right: calc((100vw - 960px) / 2);
+}
+
+.topnav > a {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.topnav img {
+  height: 42px;
+  width: auto;
+  display: block;
+}
+
+.topnav #myLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 18px;
+}
+
+.topnav a.normal {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1;
+  padding: 8px 0;
+}
+
+.topnav a.normal:hover {
+  color: black;
+}
+
+.wrapper {
+  margin-top: 95px;
+} */
 .topnav {
   position: fixed;
   top: 0;
@@ -50,14 +102,25 @@
 .wrapper {
   margin-top: 95px;
 }
+
 .topnav a.icon {
   display: none;
 }
 
 @media print, screen and (max-width: 960px) {
+  .topnav {
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: flex-start;
+  }
+
+  .topnav img {
+    height: 36px;
+  }
+
   .topnav #myLinks {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: flex-start;
     gap: 0;
     max-height: 0;
@@ -65,11 +128,12 @@
     transition: max-height 0.35s ease-in-out;
     position: absolute;
     top: 70px;
-    right: 0;
     left: 0;
+    right: 0;
     background: white;
     border-bottom: 1px solid #e5e5e5;
     padding: 0 20px;
+    box-sizing: border-box;
   }
 
   .topnav #myLinks.open {
@@ -78,21 +142,25 @@
     padding-bottom: 10px;
   }
 
-  .topnav a.normal {
+  .topnav a.normal,
+  .topnav a.normal.right {
     display: block;
     width: 100%;
     padding: 12px 0;
+    margin: 0;
   }
 
   .topnav a.icon {
     display: block;
     position: absolute;
     right: 20px;
-    top: 22px;
+    top: 50%;
+    transform: translateY(-50%);
     color: #333;
     text-decoration: none;
     font-size: 18px;
     margin: 0;
+    line-height: 1;
   }
 
   .topnav a.icon .icon-wrap {
