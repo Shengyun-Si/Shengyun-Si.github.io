@@ -50,3 +50,83 @@
 .wrapper {
   margin-top: 95px;
 }
+.topnav a.icon {
+  display: none;
+}
+
+@media print, screen and (max-width: 960px) {
+  .topnav #myLinks {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease-in-out;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    left: 0;
+    background: white;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0 20px;
+  }
+
+  .topnav #myLinks.open {
+    max-height: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .topnav a.normal {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+  }
+
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 22px;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .topnav a.icon .icon-wrap {
+    position: relative;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+  }
+
+  .topnav a.icon .icon-bars,
+  .topnav a.icon .icon-xmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.25s ease, transform 0.25s ease;
+  }
+
+  .topnav a.icon .icon-bars {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+
+  .topnav a.icon .icon-xmark {
+    opacity: 0;
+    transform: rotate(-90deg);
+  }
+
+  .topnav a.icon.active .icon-bars {
+    opacity: 0;
+    transform: rotate(90deg);
+  }
+
+  .topnav a.icon.active .icon-xmark {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+}
