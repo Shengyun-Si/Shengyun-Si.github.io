@@ -3,8 +3,14 @@ layout: homepage
 ---
 
 ## About Me
+I am a PhD student at CISPA Helmholtz Center for Information Security. I am currently advised by [Prof. Michael Backes](https://michaelbackes.eu/) and [Dr. Yang Zhang](https://yangzhangalmo.github.io/).
 
-I am a master student in Robotics, Cognition, Intelligence at Technical University of Munich. Currently, I'm completing my master thesis about safety alignment of LLMs under the supervision of [Prof. Barbara Plank](https://bplank.github.io/), working with [Xinpeng Wang](https://xinpeng-wang.github.io/). Previously, I worked as a research assistant in the NLP group at Yale University under the supervision of [Prof. Arman Cohan](https://armancohan.com/), working with [Yilun Zhao](https://yilunzhao.github.io/). My current research focuses on 1) Safety Alignment of Large Language Models, 2) LLM-based Retrieval Augmented Generation, 3) Multimodal Large Language Models.
+Previously, I completed my M.Sc. in Robotics, Cognition, Intelligence at the Technical University of Munich. During my master studies, I worked on safety alignment of large language models under the supervision of [Prof. Barbara Plank](https://bplank.github.io/), collaborating with [Xinpeng Wang](https://xinpeng-wang.github.io/). Before that, I worked as a research assistant in the NLP group at Yale University under the supervision of [Prof. Arman Cohan](https://armancohan.com/), collaborating with [Yilun Zhao](https://yilunzhao.github.io/).
+
+My research interests include:
+1) Safety Alignment of Large Language Models  
+2) Retrieval-Augmented Generation with LLMs  
+3) Multimodal Large Language Models
 
 I obtained my B.S. degree from Zhejiang University. During this period, I did my thesis about leveraging SVM algorithm to detect two-phase flow. 
 
