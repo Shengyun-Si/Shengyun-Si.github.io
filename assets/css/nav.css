@@ -1,26 +1,31 @@
+/* ===== Top navigation bar ===== */
+
 .topnav {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  width: 100vw;
+  width: 100%;
+  height: 70px;
   background: white;
   border-bottom: 1px solid #e5e5e5;
-  box-sizing: border-box;
-  padding: 16px 40px;
-  z-index: 1000;
+  z-index: 999;
+  display: flex;
+  align-items: center;
 }
 
+/* 控制logo在内容区域左侧 */
 .topnav a {
-  display: inline-block;
-}
-
-.topnav img {
-  height: 48px;
-  width: auto;
   display: block;
+  margin-left: calc((100vw - 960px) / 2);
 }
 
+/* logo大小 */
+.topnav img {
+  height: 42px;
+  width: auto;
+}
+
+/* 给页面内容腾出空间 */
 .wrapper {
   margin-top: 90px;
 }
