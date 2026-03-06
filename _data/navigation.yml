@@ -1,31 +1,17 @@
-# main:
-#   - title: "Home"
-#     url: ./
+main:
+  - title: "Home"
+    url: ./
 
 
-#   - title: "Publications"
-#     url: publications/
+  - title: "Publications"
+    url: publications/
     
 
-
-#   - title: "Services"
-#     url: services/
-
-#   - title: "Teaching"
-#     url: teaching/
-#     right: true 
-
-
-main:
-  - title: "Teaching"
-    url: teaching/
-    right: true
 
   - title: "Services"
     url: services/
 
-  - title: "Publications"
-    url: publications/
+  - title: "Teaching"
+    url: teaching/
+    right: true 
 
-  - title: "Home"
-    url: ""
