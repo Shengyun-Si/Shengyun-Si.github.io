@@ -1,5 +1,3 @@
-/* ===== Top navigation bar ===== */
-
 .topnav {
   position: fixed;
   top: 0;
@@ -10,48 +8,45 @@
   border-bottom: 1px solid #e5e5e5;
   z-index: 999;
   box-sizing: border-box;
-  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: calc((100vw - 960px) / 2);
+  padding-right: calc((100vw - 960px) / 2);
 }
 
-/* 左侧 logo */
+.topnav > a {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
 .topnav img {
   height: 42px;
   width: auto;
-  margin-top: 14px;
-  margin-left: calc((100vw - 960px) / 2);
-}
-
-/* 导航链接容器 */
-.topnav #myLinks {
   display: block;
-  float: right;
-  margin-right: calc((100vw - 960px) / 2);
-  margin-top: 18px;
 }
 
-/* 普通导航链接 */
+.topnav #myLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 18px;
+}
+
 .topnav a.normal {
-  float: right;
   color: #333;
-  text-align: center;
-  padding: 8px 10px;
   text-decoration: none;
   font-size: 16px;
   line-height: 1;
+  padding: 8px 0;
 }
 
-/* hover 效果 */
 .topnav a.normal:hover {
-  background-color: #f2f2f2;
   color: black;
 }
 
-/* 让 Home 和其它项之间留出一点整体边距 */
-.topnav a.right {
-  margin-right: 0;
-}
-
-/* 页面内容下移，避免被 fixed 顶栏挡住 */
 .wrapper {
   margin-top: 95px;
 }
