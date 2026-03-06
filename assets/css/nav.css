@@ -15,7 +15,6 @@
   padding-left: calc((100vw - 960px) / 2);
   padding-right: calc((100vw - 960px) / 2);
 }
-
 .topnav > a {
   display: flex;
   align-items: center;
