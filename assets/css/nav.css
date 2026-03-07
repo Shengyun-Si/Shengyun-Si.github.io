@@ -162,5 +162,8 @@
   .wrapper {
     margin-top: 120px;
   }
+  body {
+    padding-top: 70px;
+  }
 
 }
