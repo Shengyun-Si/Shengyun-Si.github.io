@@ -8,9 +8,9 @@ email: shengyun.si (at) cispa.de
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+keywords: Shengyun Si, NLP, LLM safety, generative AI, multimodal AI, reliability, CISPA
+description: Shengyun Si is a PhD student at CISPA Helmholtz Center for Information Security, working on trustworthy and reliable generative AI systems, including LLMs, multimodal models, and image/video generation.
+canonical: https://shengyun-si.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
